@@ -55,6 +55,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.31
     version: 8.4.31
+  radix-themes-tw:
+    specifier: ^0.0.8
+    version: 0.0.8
   tailwindcss:
     specifier: ^3.3.5
     version: 3.3.5
@@ -3268,6 +3271,10 @@ packages:
 
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+    dev: true
+
+  /radix-themes-tw@0.0.8:
+    resolution: {integrity: sha512-NPRRoahUlnYOQNfBHuGR/XFwJ4L2md59MGMbTmPZ11pwPFLeYnu4Lgqa0wcb8wiJSaiRzLA9vrWxj6suupDmdg==}
     dev: true
 
   /react-dom@18.2.0(react@18.2.0):
