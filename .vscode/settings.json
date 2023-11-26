@@ -1,0 +1,14 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.output": true,
+    "**/.turbo": true,
+    "**/.vercel": true,
+    "**/dist": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
