@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 import './globals.css';
 import '@radix-ui/themes/styles.css';
 import { Theme } from '@radix-ui/themes';
@@ -15,9 +15,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
-      <body className={GeistSans.className}>
-        <Theme appearance='dark' accentColor='yellow' scaling='110%'>
+    <html suppressHydrationWarning lang='en'>
+      <body className={GeistMono.className}>
+        <Theme
+          appearance='light'
+          accentColor='crimson'
+          scaling='110%'
+          radius='medium'
+          panelBackground='translucent'
+        >
           {children}
         </Theme>
       </body>
