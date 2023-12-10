@@ -15,14 +15,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang='en'>
+    <html suppressHydrationWarning lang="en">
       <body className={GeistMono.className}>
         <Theme
-          appearance='light'
-          accentColor='crimson'
-          scaling='110%'
-          radius='medium'
-          panelBackground='translucent'
+          appearance="light"
+          accentColor="blue"
+          scaling="110%"
+          radius="medium"
+          panelBackground="translucent"
         >
           {children}
         </Theme>
